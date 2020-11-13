@@ -54,8 +54,10 @@ for (i = fruit_store.length - 1; i >= 0; i--) {
                 } else {
                     console.log('beda');
                     card_picked = [];
-                    setTimeout({card_image.classList.toggle('hide');
-                    card_image_first.classList.toggle('hide')},3000);
+                    setTimeout(() => { 
+                        card_image.classList.toggle('hide');
+                        card_image_first.classList.toggle('hide')
+                    },500);
                 }
             } else {
                 card_image_first = card_image;
