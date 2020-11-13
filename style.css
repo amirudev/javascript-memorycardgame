@@ -1,0 +1,28 @@
+body {
+	background-color: grey;
+}
+
+.card-body {
+    width: 100px;
+    height: 200px;
+    background-color: green;
+    margin: 5px;
+    float: left;
+    position: relative;
+	background-color: green;
+}
+
+.card-body img {
+	width: 50px;
+	position: absolute;
+	top: 75px;
+	right: 25px;
+}
+
+.hide {
+	display: none;
+}
+
+.show-fixed {
+	display: inline-block;
+}
