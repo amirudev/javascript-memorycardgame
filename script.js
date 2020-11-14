@@ -63,6 +63,8 @@ for (i = fruit_store.length - 1; i >= 0; i--) {
                     card_image.classList.remove('hide');
                     card_image.classList.add('show-fixed');
                     card.classList.add('card-show-fixed');
+                    card_image_first.classList.add('show-fixed');
+                    card_body_first.classList.add('card-show-fixed');
                     card_stored.push(card_picked);
                     console.log(card_stored);
                     card_picked = [];
